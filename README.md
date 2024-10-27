@@ -1,0 +1,2 @@
+-- Registro de notas
+- Estado del tabajo: en progreso
