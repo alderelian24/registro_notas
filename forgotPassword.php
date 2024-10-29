@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Forgot Password</h1>
+    <header class="header">
+        <h1 class="header__title">Forgot Password</h1>
     </header>
-    <main>
-        <form action="forgotPassword.php" method="post">
-            <input type="email" name="email" placeholder="Enter your email">
-            <button type="submit" name="submit">Submit</button>
+    <main class="main">
+        <form action="forgotPassword.php" method="post" class="form">
+            <input type="email" name="email" placeholder="Enter your email" class="form_input">
+            <button type="submit" name="submit" class="form_button">Submit</button>
         </form>
     </main>
-    <footer>
-        <p>&copy; 2020, All rights reserved</p>
+    <footer class="footer">
+        <p class="footer__text">&copy; 2020, All rights reserved</p>
     </footer>
 </body>
 </html>
